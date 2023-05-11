@@ -25,3 +25,26 @@ let footer = `
 //dos formas de cargar las etiquetas
 // document.getElementById("contacto").innerHTML = cad;
 document.querySelector("footer").innerHTML = footer;
+
+<footer class="w-100 d-flex align-items justify-content-center flex-wrap bg-warning pt-5">
+  <div class="text-center pt-3">
+    <a href="https://www.instagram.com/">
+      <i class="bi bi-instagram text-black text-center align-items-center "></i>
+    </a>
+    <a href="https://wwww.facebook.com/">
+      <i class="bi bi-facebook text-black text-center align-items-center "></i>
+    </a>
+    <a href="https://web.whatsapp.com/">
+      <i class="bi bi-whatsapp text-black text-center align-items-center "></i>
+    </a>
+    <p class="fs-5 pt-2 text-black text-center">
+      LA Pizzeria © Todos Los Derechos Reservados 2023
+    </p>
+    <a
+      class="fs-5 text-black text-center fw-semibold text-decoration-none"
+      href=""
+    >
+      - NewGroup -
+    </a>
+  </div>
+</footer>;
