@@ -24,7 +24,7 @@ html {
 }
 
 .aheader:hover {
-  background-color: dimgray;
+  background-color: rgba(129,44,111,255);
   outline: 2px solid black;
 }
 
@@ -73,8 +73,8 @@ cards {
 
 .footer {
   align-items: justify-content-center;
-   flex-wrap: bg-warning pt-5;
+  flex-wrap: bg-warning pt-5;
   display: flexbox;
-  background-color: black;
+  background-color: rgb(196, 192, 192);
   text-align: center;
 }

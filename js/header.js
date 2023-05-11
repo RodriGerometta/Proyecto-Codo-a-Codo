@@ -1,7 +1,7 @@
 // <!-- place navbar here -->
 
 navbar = `
-    <h1 style="border: 2px solid white">Shopping Codo a Codo</h1>
+    <h1 style="border: 2px solid grey">Shopping Codo a Codo</h1>
     <nav class="navbar navbar-expand-lg p-3 fw-medium fs-5">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"></a>

@@ -5,18 +5,22 @@ let footer = `
         </a>
         
         <nav>
-        <a  href="https://api.whatsapp.com/send?phone=3794632153" target="_blank"  >
-            <img width="30"  src="./imagenes/whatsapp.png" alt="logo whatsapp">
-        </a>
-        <a href="https://www.facebook.com/cafeteria.brig" target="_blank">
-            <img width="30"   src="./imagenes/facebook.png" alt="logo facebook"> 
-        </a>
-        <a href="https://www.instagram.com/" target="_blank">
-            <img width="30"   src="./imagenes/instagram (1).png" alt="logo instagram">
-        </a>
-        <a href="mailto:ejemplo@gmail.com" target="_blank">
-            <img width="35"   src="./imagenes/correo-electronico-vacio.png" alt="logo correo">
-        </a>
+            <a  href="https://api.whatsapp.com/send?phone=3794632153" target="_blank"  >
+                <img width="30"  src="./imagenes/whatsapp.png" alt="logo whatsapp">
+            </a>
+
+            <a href="https://www.facebook.com/" target="_blank">
+                <img width="30"   src="./imagenes/facebook.png" alt="logo facebook"> 
+            </a>
+
+            <a href="https://www.instagram.com/" target="_blank">
+                <img width="30"   src="./imagenes/instagram (1).png" alt="logo instagram">
+            </a>
+
+            <a href="rodrigogerometta@gmail.com" target="_blank">
+                <img width="35"   src="./imagenes/correo-electronico-vacio.png" alt="logo correo">
+            </a>
+
         </nav>
         <p>Sitio desarrollado en Codo a Codo </p>
     </div>
@@ -26,7 +30,7 @@ let footer = `
 // document.getElementById("contacto").innerHTML = cad;
 document.querySelector("footer").innerHTML = footer;
 
-<footer class="w-100 d-flex align-items justify-content-center flex-wrap bg-warning pt-5">
+{/* <footer class="w-100 d-flex align-items justify-content-center flex-wrap bg-warning pt-5">
   <div class="text-center pt-3">
     <a href="https://www.instagram.com/">
       <i class="bi bi-instagram text-black text-center align-items-center "></i>
@@ -47,4 +51,4 @@ document.querySelector("footer").innerHTML = footer;
       - NewGroup -
     </a>
   </div>
-</footer>;
+</footer>; */}
