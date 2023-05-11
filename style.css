@@ -1,0 +1,78 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.aheader {
+  color: blanchedalmond;
+  font-size: 23px;
+  text-decoration: none;
+  background-color: white;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.aheader:hover {
+  background-color: dimgray;
+  outline: 2px solid black;
+}
+
+.aheader:visited {
+  color: rgb(242, 196, 128);
+}
+
+.aheader:active {
+  background-color: rgb(243, 240, 235);
+  color: rgb(8, 8, 8);
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+#logo {
+  width: 100vw;
+}
+
+header {
+  background-color: white;
+}
+
+.imagenCard {
+  width: 298px;
+  border: 2px solid black;
+}
+
+.card {
+  margin: 10px;
+  border: 2px solid black;
+  width: 300px;
+}
+
+cards {
+  display: flex;
+  flex-wrap: wrap;
+  
+  margin: 0;
+  flex-direction: column;
+
+  flex-grow: 1;
+}
+
+.footer {
+  display: flexbox;
+  background-color: black;
+  text-align: center;
+}
