@@ -64,7 +64,7 @@ header {
 cards {
   display: flex;
   flex-wrap: wrap;
-  
+
   margin: 0;
   flex-direction: column;
 
@@ -72,6 +72,8 @@ cards {
 }
 
 .footer {
+  align-items: justify-content-center;
+   flex-wrap: bg-warning pt-5;
   display: flexbox;
   background-color: black;
   text-align: center;
