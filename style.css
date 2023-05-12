@@ -61,13 +61,11 @@ header {
   width: 300px;
 }
 
-cards {
+.cards {
   display: flex;
   flex-wrap: wrap;
-
+  justify-content: space-around;
   margin: 0;
-  flex-direction: column;
-
   flex-grow: 1;
 }
 
