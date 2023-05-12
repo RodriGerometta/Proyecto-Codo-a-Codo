@@ -50,28 +50,22 @@ header {
   background-color: white;
 }
 
+
+
 .imagenCard {
-  width: 298px;
+  display: flex;
+  margin: 15px 30px 15px 30px;
+  width: 96%;
   border: 2px solid black;
 }
 
-cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 0;
-  flex-grow: 1;
-  justify-content: space-around;
-}
-
-.card {
+#app {
   margin: 10px;
-  border: 2px solid black;
-  width: 300px;
-
+  border: 2px solid red;
+  width: 30px;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  /* flex-wrap: wrap;
+  flex-direction: column; */
   flex-grow: 1;
   justify-content: space-around;
 }
@@ -84,7 +78,7 @@ cards {
   text-align: center;
 }
 
-.product {
+.card {
   display: flex;
   align-items: center;
   margin: 10px;
