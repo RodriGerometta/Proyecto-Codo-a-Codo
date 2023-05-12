@@ -107,7 +107,31 @@ input {
     margin-bottom: 15px;
 }
 
-/* CUERPO */
+/* ----------------------------CUERPO------------------------------ */
+/* BARRA DESPLAZAMIENTO */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(190, 18, 190, 0.295);
+}
+
+/* COLOR DESLIZADOR */
+::-webkit-scrollbar-thumb {
+    background-color: rgba(190, 18, 190, 0.473);
+} 
+
+::-webkit-scrollbar-button {
+    background-color: black;
+}
+
+/* FIN BARRA DESPLAZAMIENTO */
+
+body{
+    background-color: rgba(240, 0, 240, 0.2);
+}
+
 main{
     margin-left: 5%;
     margin-right: 1px;
@@ -187,6 +211,8 @@ background-color: rgb(0, 0, 0);
 
 /* ------------------------MAPA---------------------------- */
 .div-ubicacion{
+    width: 96%;
+    margin: 5px;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
