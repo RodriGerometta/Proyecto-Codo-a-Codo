@@ -149,11 +149,11 @@ main > div > p{
 /* ------------------FUNDADORES------------------------ */
 
 .fundadores{
-margin: 0px;
+width: 96%;
+/* height: 450; */
+margin: 5px;
 display: flex;
 justify-content: space-around;
-height: 450;
-width: 450;
 border: 1px solid red;
 background-color: rgb(0, 0, 0);
 }
