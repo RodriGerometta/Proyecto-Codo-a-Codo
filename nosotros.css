@@ -92,15 +92,15 @@ footer nav {
 h1 {
     font-size: 30px;
     text-align: center;
-  }
+}
   
-  #logo {
+#logo {
     width: 100vw;
-  }
+}
   
-  header {
+header {
     background-color: white;
-  }
+}
 
 input {
     padding: 5px;
@@ -146,12 +146,16 @@ main > div > p{
     flex-direction: row-reverse;
 }
 
+/* ------------------FUNDADORES------------------------ */
+
 .fundadores{
+margin: 0px;
 display: flex;
 justify-content: space-around;
-height: 500;
-width: 500;
+height: 450;
+width: 450;
 border: 1px solid red;
+background-color: rgb(0, 0, 0);
 }
 
 .fundador{
@@ -160,24 +164,30 @@ border: 1px solid red;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding: 4px;
-    height: 200px;
-    width: 200px;
+    /* padding: 4px; */
+    /* height: 200px; */
+    width: 250px;
     border: 1px black solid;
+    background-color: rgb(0, 0, 70);
 }
 
-/* .f1 .f2 .f3{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-} */
+.tit-fundador{
+    color: aquamarine;
+}
+
+.nombre-fundador{
+    color: aquamarine;
+}
 
 .tit-fundador{
     margin-top: 4px;
     margin-bottom: 10px;
 }
 
+
+/* ------------------------MAPA---------------------------- */
 .div-ubicacion{
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     text-align: center;
