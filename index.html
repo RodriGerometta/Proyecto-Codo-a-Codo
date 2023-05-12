@@ -26,9 +26,30 @@
     <header id="header">
       <!-- place navbar here -->
     </header>
+
     <main>
-      
+      <div class="imagenCard">
+        <!-- <div v-for="producto in productos" id="app">
+           //<p>{{producto}}</p> 
+          <img :src="producto.image" alt="{{producto.description}}" />
+          <h2>Titulo: {{producto.title}}</h2>
+          <p>Precio:{{producto.price}}</p>
+        </div> -->
+
+        <div id="app">
+          <div v-if="loading">Cargando...</div>
+          <div v-else>
+            <div v-for="product in products" :key="product.id" class="product">
+              <img :src="product.image" alt="product image" />
+              <h3>{{ product.title }}</h3>
+              <p>{{ product.description }}</p>
+              <p>{{ product.price | currency }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
+
     <footer id="footer">
       <!-- place footer here -->
     </footer>
@@ -44,7 +65,10 @@
       integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
       crossorigin="anonymous"
     ></script>
+    <!-- script de vue -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
+    <!-- scripts de js -->
     <script src="./js/datos.js"></script>
     <script src="./js/footer.js"></script>
     <script src="./js/header.js"></script>

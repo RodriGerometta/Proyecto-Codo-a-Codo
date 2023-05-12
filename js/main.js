@@ -1,26 +1,22 @@
-let card = `
-<div class="cards">
-`;
-for (let elemento of data) {
-  card =
-    card +
-    `
-        <div class="card">
-            <img class="imagenCard" src= ${elemento.image} alt=${elemento.description}>
-            <h2>${elemento.title}</h2>
-            <p>Precio: ${elemento.price}</p>
-        </div>
-    `;
-}
+const { createApp } = Vue;
 
-card = card + `
-</div>`
-console.log(card);
-document.querySelector("main").innerHTML = card;
-
-// let cad = ``;
-// for (let elemento of fotos) {
-//   cad = cad + `<img src= ${elemento} alt="Foto">
-//   `;
-// }
-// document.querySelector("main").innerHTML=cad
+createApp({
+  data() {
+    return {
+      products: [],
+      loading: true,
+    };
+  },
+  filters: {
+    currency(value) {
+      return value.toFixed(2) + " €";
+    },
+  },
+  mounted() {
+    fetch("https://fakestoreapi.com/products")
+      .then((response) => response.json())
+      .then((data) => (this.products = data))
+      .catch((error) => console.error(error))
+      .finally(() => (this.loading = false));
+  },
+}).mount("#app");

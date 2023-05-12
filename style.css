@@ -24,7 +24,7 @@ html {
 }
 
 .aheader:hover {
-  background-color: rgba(129,44,111,255);
+  background-color: rgba(129, 44, 111, 255);
   outline: 2px solid black;
 }
 
@@ -55,12 +55,6 @@ header {
   border: 2px solid black;
 }
 
-.card {
-  margin: 10px;
-  border: 2px solid black;
-  width: 300px;
-}
-
 cards {
   display: flex;
   flex-wrap: wrap;
@@ -69,6 +63,19 @@ cards {
   flex-direction: column;
 
   flex-grow: 1;
+  justify-content: space-around;
+}
+
+.card {
+  margin: 10px;
+  border: 2px solid black;
+  width: 300px;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-around;
 }
 
 .footer {
@@ -77,4 +84,23 @@ cards {
   display: flexbox;
   background-color: rgb(196, 192, 192);
   text-align: center;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.product img {
+  width: 100px;
+  height: 100px;
+}
+
+.product h3 {
+  margin: 0;
+}
+
+.product p {
+  margin: 5px;
 }
