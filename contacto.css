@@ -105,6 +105,26 @@ button{
     color: brown;
 }
 
+#footer{
+    background-color: #4568DC;
+    background: -webkit-gradient(to right, #B06AB3, #4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+}
+
+footer a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+footer nav {
+    /*display: inline;*/
+    width: 220px;
+    margin: 0 auto;
+}
+
+
+
+
 @media screen and (max-width: 500px) {
     form{
         width: 80%;
