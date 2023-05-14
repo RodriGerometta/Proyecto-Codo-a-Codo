@@ -17,7 +17,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/style.css" />
-
+    <link rel="stylesheet" href="/contacto.css" />
     <link rel="icon" href="./Imagenes/logo.png" />
   </head>
 
@@ -26,26 +26,25 @@
       <!-- place navbar here -->
     </header>
     <main>
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label"
-          >Email address</label
-        >
-        <input
-          type="email"
-          class="form-control"
-          id="exampleFormControlInput1"
-          placeholder="name@example.com"
-        />
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label"
-          >Example textarea</label
-        >
-        <textarea
-          class="form-control"
-          id="exampleFormControlTextarea1"
-          rows="3"
-        ></textarea>
+      <div class="div-contacto">
+        <form id="form" action="" method="POST">
+          <h3>Formulario de contacto</h3>
+          <div class="item-form">
+            <input class="form-input" name="nombre" type="text" id="nombre">
+            <label class="form-label" for="nombre">Nombre completo</label>
+          </div>
+          <div class="item-form">
+            <input class="form-input" name="email" type="text" id="email">
+            <label class="form-label" for="email">Correo electrónico</label>
+          </div>
+          <div class="item-form">
+            <label class="form-label msj-label" for="mensaje">Mensaje</label>
+            <input class="form-input" name="mensaje" type="text" id="mensaje" cols="30" rows="15">
+          </div>
+          <button type="submit" class="boton">Enviar</button>
+          <p class="warning" id="warning"></p>
+          <p class="enviado-ok" id="enviado-ok"></p>
+        </form>
       </div>
     </main>
     <footer id="footer">
