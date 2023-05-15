@@ -4,7 +4,10 @@ html {
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
-  background-color: white;
+
+  background-color: #4568dc;
+  background: -webkit-gradient(to right, #b06ab3, #4568dc);
+  background: linear-gradient(to right, #b06ab3, #4568dc);
 }
 
 * {
@@ -50,8 +53,6 @@ header {
   background-color: white;
 }
 
-
-
 .imagenCard {
   display: flex;
   margin: 15px 30px 15px 30px;
@@ -74,7 +75,9 @@ header {
   align-items: justify-content-center;
   flex-wrap: bg-warning pt-5;
   display: flexbox;
-  background-color: rgb(196, 192, 192);
+  background-color: #4568dc;
+  background: -webkit-gradient(to right, #b06ab3, #4568dc);
+  background: linear-gradient(to right, #b06ab3, #4568dc);
   text-align: center;
 }
 
