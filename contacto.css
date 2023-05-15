@@ -122,6 +122,13 @@ footer nav {
     margin: 0 auto;
 }
 
+.logo{
+    margin: 10px 0 20px;
+}
+
+footer > div > p {
+    margin-top: 14px;
+}
 
 
 
