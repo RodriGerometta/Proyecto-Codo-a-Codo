@@ -151,7 +151,6 @@ main > h1{
     margin: 5px;
     display: flex;
     padding: 3px;
-    border: 2px solid black;
     align-items: center;
 }
 
@@ -161,15 +160,22 @@ main > h1{
     border-radius:7%;
 }
 
+.img-contenido:hover{
+    transform: scale(1.04);
+    transition: 1.5s;
+}
+
 main > div > p{
     margin: 1px;
     padding: 2px;
-    text-align: justify;
+    text-align: center;
     font-size: 17px;
     line-height: 1.2;
 }
 
 .div-cont-2{
+    margin-top: 20px;
+    margin-bottom: 40px;
     flex-direction: row-reverse;
 }
 
@@ -177,16 +183,18 @@ main > div > p{
 
 .fundadores{
 width: 96%;
+border-radius: 10px 100px / 120px;
+border-style: groove;
 /* height: 450; */
 margin: 5px;
+padding: 12px;
 display: flex;
 justify-content: space-around;
-border: 1px solid red;
-background-color: rgb(0, 0, 0);
+background: radial-gradient(rgb(105, 103, 103), rgb(92, 91, 91))
 }
 
 .fundador{
-    /* border-radius: 50%; */
+    border-radius: 17%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -194,16 +202,12 @@ background-color: rgb(0, 0, 0);
     /* padding: 4px; */
     /* height: 200px; */
     width: 250px;
-    border: 1px black solid;
-    background-color: rgb(0, 0, 70);
+    background: linear-gradient(to bottom right, rgb(2, 2, 66), rgb(231, 152, 166))
 }
 
-.tit-fundador{
-    color: aquamarine;
-}
-
-.nombre-fundador{
-    color: aquamarine;
+.tit-fundador, .nombre-fundador{
+    color: rgb(38, 112, 88);
+    -webkit-text-stroke: 0.5px black;
 }
 
 .tit-fundador{
@@ -237,11 +241,18 @@ background-color: rgb(0, 0, 0);
 
 
 footer{
-    margin: 15px;
+    margin: 15 0px;
     padding: 5px;
     border-color: black;
 }
 
+.logo{
+    margin: 10px 0 20px;
+}
+
+footer > div > p {
+    margin-top: 14px;
+}
 
 
 
@@ -286,6 +297,17 @@ footer{
     .div-cont-2{
         flex-direction: column;
     }
+
+    * ------------------FUNDADORES------------------------ */
+    
+    .fundadores{
+        overflow: hidden;
+    }
+        
+    .fundador{
+        margin: 5px;
+        width: 30%;
+    }
     
 
     
@@ -314,7 +336,6 @@ footer{
         display: flex;
         flex-direction: column;
         padding: 10px;
-        border: 2px solid black;
         align-items: center;
     }
 
@@ -346,8 +367,7 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        border: 1px solid red;
-        background-color: rgb(0, 0, 0);
+        overflow: hidden;
     }
         
     .fundador{
@@ -357,10 +377,9 @@ footer{
         justify-content: center;
         text-align: center;
         padding: 20px 0px 5px 0px;
+        margin: 5px;
         /* height: 200px; */
         width: 90%;
-        border: 1px black solid;
-        background-color: rgb(0, 0, 70);
     }
         
     .tit-fundador{
@@ -370,11 +389,12 @@ footer{
         text-align: center;
         margin-top: 4px;
         margin-bottom: 10px;
-        width: 90%;
+        font-size: 45px;
     }
         
     .nombre-fundador{
-        color: aquamarine;
+        color: rgb(14, 117, 85);
+        font-size: 30px;
     }
         
     .img-fundador{
