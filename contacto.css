@@ -126,7 +126,13 @@ footer nav {
 
 
 @media screen and (max-width: 500px) {
-    form{
+    #form{
         width: 80%;
+        margin: 20px 45px;
+    }
+
+    form .item-form{
+        position: relative;
+        margin: 25px;
     }
 }
