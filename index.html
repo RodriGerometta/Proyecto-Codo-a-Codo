@@ -33,13 +33,16 @@
           <div v-if="loading">Cargando...</div>
           <div v-else>
             <div v-for="product in products" :key="product.id" class="product">
-              <img :src="product.image" alt="product image" />
-              <h3>{{ product.title }}</h3>
-              <p>{{ product.description }}</p>
-              <p>{{ product.price | currency }}</p>
+              <div class="card">
+                <img :src="product.image" alt="product image" />
+                <h3>{{ product.title }}</h3>
+                <p>{{ product.description }}</p>
+                <p>{{ product.price | currency }}</p>
+              </div>
             </div>
           </div>
         </div>
+
       </div>
     </main>
 
