@@ -16,7 +16,7 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="./style.css" />
 
     <link rel="icon" href="./Imagenes/logo.png" />
   </head>
@@ -26,27 +26,19 @@
       <!-- place navbar here -->
     </header>
     <main>
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label"
-          >Email address</label
-        >
-        <input
-          type="email"
-          class="form-control"
-          id="exampleFormControlInput1"
-          placeholder="name@example.com"
-        />
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label"
-          >Example textarea</label
-        >
-        <textarea
-          class="form-control"
-          id="exampleFormControlTextarea1"
-          rows="3"
-        ></textarea>
-      </div>
+      <form action="" method="" id="formulario" name="formulario" onsubmit="return validacion()">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Tu email">
+    
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" placeholder="Escribe aquí tu mensaje"></textarea>
+    
+        <input type="submit" value="Enviar">
+    </form>
+
     </main>
     <footer id="footer">
       <!-- place footer here -->
@@ -64,8 +56,8 @@
       crossorigin="anonymous"
     ></script>
 
-    <script src="/js/contacto.js"></script>
-    <script src="/js/header.js"></script>
-    <script src="/js/footer.js"></script>
+    <script src="./js/contacto.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="./js/footer.js"></script>
   </body>
 </html>
