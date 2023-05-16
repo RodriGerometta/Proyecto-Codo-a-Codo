@@ -28,6 +28,7 @@ formulario.addEventListener('submit', validar =>{
         p_warning.innerHTML = war;
     }else{
         document.getElementById("enviado-ok").innerHTML = "Enviado!";
+        formulario.reset();
     }
 
 })
