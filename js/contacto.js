@@ -1,3 +1,23 @@
+<<<<<<< HEAD
+function validacion() {
+  var nombre = document.getElementById("nombre").value;
+  var email = document.getElementById("email").value;
+  var mensaje = document.getElementById("mensaje").value;
+  var error = document.getElementById("error");
+  var expresion = /\w+@\w+\.+[a-z]/;
+
+  error.style.color = "red";
+  error.style.fontSize = "14px";
+
+  if (nombre === "" || email === "" || mensaje === "") {
+    error.innerHTML = "Todos los campos son obligatorios";
+    return false;
+  } else if (!expresion.test(email)) {
+    error.innerHTML = "El correo no es válido";
+    return false;
+  }
+}
+=======
 const formulario = document.getElementById("form");
 const nombre = document.getElementById("nombre");
 const email = document.getElementById("email");
@@ -31,3 +51,4 @@ formulario.addEventListener('submit', validar =>{
     }
 
 })
+>>>>>>> f642be73dfa36600f76327c2920672787cd3caa6

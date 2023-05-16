@@ -122,11 +122,24 @@ footer nav {
     margin: 0 auto;
 }
 
+.logo{
+    margin: 10px 0 20px;
+}
+
+footer > div > p {
+    margin-top: 14px;
+}
 
 
 
 @media screen and (max-width: 500px) {
-    form{
+    #form{
         width: 80%;
+        margin: 20px 45px;
+    }
+
+    form .item-form{
+        position: relative;
+        margin: 25px;
     }
 }
