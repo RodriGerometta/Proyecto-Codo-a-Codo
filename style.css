@@ -44,10 +44,6 @@ h1 {
   text-align: center;
 }
 
-#logo {
-  width: 100vw;
-}
-
 header {
   background-color: #4568dc;
   background: -webkit-gradient(to right, #b06ab3, #4568dc);
@@ -55,13 +51,26 @@ header {
 }
 
 .footer {
-  align-items: justify-content-center;
-  flex-wrap: bg-warning pt-5;
-  display: flexbox;
+  text-align: center;
+  margin: 10px 0 0 0;
   background-color: #4568dc;
   background: -webkit-gradient(to right, #b06ab3, #4568dc);
   background: linear-gradient(to right, #b06ab3, #4568dc);
-  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+footer>nav {
+  width: 220px;
+  margin: 0 auto;
+}
+
+#logo {
+  width: 100vw;
+  margin-bottom: 10px;
 }
 
 .contenedor-gral {
