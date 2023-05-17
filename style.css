@@ -4,7 +4,6 @@ html {
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
-
   background-color: #4568dc;
   background: -webkit-gradient(to right, #b06ab3, #4568dc);
   background: linear-gradient(to right, #b06ab3, #4568dc);
@@ -55,24 +54,6 @@ header {
   background: linear-gradient(to right, #b06ab3, #4568dc);
 }
 
-.imagenCard {
-  display: flex;
-  margin: 15px 30px 15px 30px;
-  width: 96%;
-  border: 2px solid black;
-}
-
-#app {
-  margin: 10px;
-  /* border: 2px solid red; */
-  width: 30px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  flex-grow: 1;
-  justify-content: space-around;
-}
-
 .footer {
   align-items: justify-content-center;
   flex-wrap: bg-warning pt-5;
@@ -83,13 +64,37 @@ header {
   text-align: center;
 }
 
+.contenedor-gral {
+  display: flex;
+  margin: 15px 30px;
+  width: 96%;
+  border: 2px solid black;
+}
+
+.product{
+  display: inline-flex;
+  justify-content: space-around;
+  margin: 20px;
+  width: 30%;
+  height: 400px;
+  overflow-y:scroll;
+  border: red 2px solid;
+  background-color: white;
+}
+
 .card {
   display: flex;
   align-items: center;
-  margin: 10px;
+  border: none;
 }
 
+.card-body{
+  text-align: center;
+}
+
+
 .product img {
+  margin: 8px 0 8px;
   width: 100px;
   height: 100px;
 }
@@ -98,6 +103,6 @@ header {
   margin: 0;
 }
 
-.product p {
+.product>p {
   margin: 5px;
 }
