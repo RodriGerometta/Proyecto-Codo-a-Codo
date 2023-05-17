@@ -68,24 +68,43 @@ header {
   display: flex;
   margin: 15px 30px;
   width: 96%;
-  border: 2px solid black;
 }
 
 .product{
   display: inline-flex;
-  justify-content: space-around;
+  justify-content: center;
   margin: 20px;
   width: 30%;
   height: 400px;
-  overflow-y:scroll;
   border: red 2px solid;
-  background-color: white;
+  border-bottom-left-radius: 20%;
+  background-color: rgb(255, 255, 255);
+}
+
+.prod-titulo{
+  font-size: 20px;
+  display: block;
+  justify-content: center;
+  margin: 10px;
+}
+
+.prod-precio{
+  margin-top: 50px;
+  font-size: 17px;
+  font-style: italic;
+}
+
+.prod-stock{
+  font-size: 13px;
+  color: darkcyan;
 }
 
 .card {
   display: flex;
   align-items: center;
+  justify-content: center;
   border: none;
+  border-bottom-left-radius: 20%;
 }
 
 .card-body{
@@ -94,9 +113,9 @@ header {
 
 
 .product img {
-  margin: 8px 0 8px;
-  width: 100px;
-  height: 100px;
+  margin: 12px 0 8px;
+  width: 120px;
+  height: 120px;
 }
 
 .product h3 {
