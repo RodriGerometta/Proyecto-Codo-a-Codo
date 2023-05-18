@@ -76,10 +76,6 @@ footer>nav {
   margin: 0 auto;
 }
 
-#logo {
-  width: 100vw;
-  margin-bottom: 10px;
-}
 
 .contenedor-gral {
   display: flex;
@@ -141,4 +137,28 @@ footer>nav {
 
 .product>p {
   margin: 5px;
+}
+
+@media screen and  (min-width: 768px) and (max-width:992px) {
+  /* tablet*/
+  .li-logo-header{
+      margin: 10px;
+  }
+  
+  .logo-header {
+      width: 7vw;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  /*celu*/
+  .li-logo-header{
+    margin: 10px;
+  }
+
+  .logo-header {
+    width: 10vw;
+  }
+
 }
