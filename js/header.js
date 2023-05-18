@@ -10,9 +10,9 @@ navbar = `
             </button>
             <div class="collapse navbar-collapse" id="barra">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-                    <li class="nav-item">
+                    <li class="nav-item li-logo-header">
                         <a href="index.html">
-                            <img width="65" class="logo" src="./Imagenes/logo.png" alt="Logo">
+                            <img width="65" class="logo-header" src="./Imagenes/logo.png" alt="Logo">
                         </a>
                     </li>
                     <li class="nav-item">

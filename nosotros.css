@@ -29,14 +29,14 @@ html {
     outline: 2px solid black;
 }
   
-  .aheader:visited {
+.aheader:visited {
     color: rgb(242, 196, 128);
-  }
+}
   
-  .aheader:active {
+.aheader:active {
     background-color: rgb(243, 240, 235);
     color: rgb(8, 8, 8);
-  }
+}
 
 h1 {
     font-size: 30px;
@@ -48,21 +48,12 @@ footer {
     margin: 10px 0 0 0;
 }
 
-#logo_header {
-    width: 100vw;
+.li-logo-header{
+    margin: 0 25px;
 }
 
-.aheader:hover {
-    outline: 2px solid black;
-}
-
-.aheader:visited {
-    color: rgb(242, 196, 128);
-}
-
-.aheader:active {
-    background-color: rgb(243, 240, 235);
-    color: rgb(8, 8, 8);
+.logo-header {
+    width: 5vw;
 }
 
 footer a {
@@ -241,6 +232,14 @@ footer > div > p {
 /* MEDIA QUERIES */
 @media screen and  (min-width: 768px) and (max-width:992px) {
     /* tablet*/
+    .li-logo-header{
+        margin: 10px;
+    }
+    
+    .logo-header {
+        width: 7vw;
+    }
+
     main{
         margin-left: 5%;
         margin-right: 1px;
@@ -304,6 +303,14 @@ footer > div > p {
     main{
         margin-left: 5%;
         margin-right: 1px;
+    }
+
+    .li-logo-header{
+        margin: 10px;
+    }
+    
+    .logo-header {
+        width: 10vw;
     }
 
     main > h1{

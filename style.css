@@ -50,6 +50,14 @@ header {
   background: linear-gradient(to right, #b06ab3, #4568dc);
 }
 
+.li-logo-header{
+  margin: 0 25px;
+}
+
+.logo-header {
+  width: 5vw;
+}
+
 .footer {
   text-align: center;
   margin: 10px 0 0 0;
