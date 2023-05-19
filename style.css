@@ -44,48 +44,80 @@ h1 {
   text-align: center;
 }
 
-#logo {
-  width: 100vw;
-}
-
 header {
   background-color: #4568dc;
   background: -webkit-gradient(to right, #b06ab3, #4568dc);
   background: linear-gradient(to right, #b06ab3, #4568dc);
 }
 
+.li-logo-header{
+  margin: 0 25px;
+}
+
+.logo-header {
+  width: 5vw;
+}
+
 .footer {
-  align-items: justify-content-center;
-  flex-wrap: bg-warning pt-5;
-  display: flexbox;
+  text-align: center;
+  margin: 10px 0 0 0;
   background-color: #4568dc;
   background: -webkit-gradient(to right, #b06ab3, #4568dc);
   background: linear-gradient(to right, #b06ab3, #4568dc);
-  text-align: center;
 }
+
+footer a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+footer>nav {
+  width: 220px;
+  margin: 0 auto;
+}
+
 
 .contenedor-gral {
   display: flex;
   margin: 15px 30px;
   width: 96%;
-  border: 2px solid black;
 }
 
 .product{
   display: inline-flex;
-  justify-content: space-around;
-  margin: 20px;
+  justify-content: center;
+  margin: 15px;
   width: 30%;
   height: 400px;
-  overflow-y:scroll;
   border: red 2px solid;
-  background-color: white;
+  border-bottom-left-radius: 20%;
+  background-color: rgb(255, 255, 255);
+}
+
+.prod-titulo{
+  font-size: 20px;
+  display: block;
+  justify-content: center;
+  margin: 10px;
+}
+
+.prod-precio{
+  margin-top: 50px;
+  font-size: 17px;
+  font-style: italic;
+}
+
+.prod-stock{
+  font-size: 13px;
+  color: darkcyan;
 }
 
 .card {
   display: flex;
   align-items: center;
+  justify-content: center;
   border: none;
+  border-bottom-left-radius: 20%;
 }
 
 .card-body{
@@ -94,9 +126,9 @@ header {
 
 
 .product img {
-  margin: 8px 0 8px;
-  width: 100px;
-  height: 100px;
+  margin: 12px 0 8px;
+  width: 120px;
+  height: 120px;
 }
 
 .product h3 {
@@ -105,4 +137,83 @@ header {
 
 .product>p {
   margin: 5px;
+}
+
+@media (min-width: 768px) and (max-width:992px) {
+  /* tablet*/
+  .li-logo-header{
+      margin: 10px;
+  }
+  
+  .logo-header {
+      width: 7vw;
+  }
+
+  .contenedor-gral {
+    width: 90%;
+  }
+
+  .product{
+    width: 44%;
+    height: 370px;
+  }
+  
+  .prod-titulo{
+    font-size: 25px;
+    margin: 7px 0 8px;
+  }
+  
+  .prod-precio{
+    margin-top: 15px;
+    font-size: 23px;
+  }
+
+  .prod-stock{
+    display: none;
+  }
+  
+  .product img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  /*celu*/
+  .li-logo-header{
+    margin: 10px;
+  }
+
+  .logo-header {
+      width: 7vw;
+  }
+
+  .contenedor-gral {
+    width: 90%;
+  }
+
+  .product{
+    width: 44%;
+    height: 370px;
+  }
+
+  .prod-titulo{
+    font-size: 25px;
+    margin: 7px 0 8px;
+  }
+
+  .prod-precio{
+    margin-top: 15px;
+    font-size: 23px;
+  }
+
+  .prod-stock{
+    display: none;
+  }
+
+  .product img {
+    width: 100px;
+    height: 100px;
+  }
 }
