@@ -16,8 +16,8 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./style.css" />
     <link rel="icon" href="./Imagenes/logo.png" />
+    <link rel="stylesheet" href="./sucursales.css">
   </head>
 
   <body>
@@ -25,20 +25,43 @@
       <!-- place navbar here -->
     </header>
     <main>
-        <h1>SUCURSALES</h1>
+        <h1 class="titulo-sucursales">SUCURSALES</h1>
         <br>
-        <div>
-            <h3>Sucursal San Juan</h3>
-            <h5><a href="https://goo.gl/maps/ZKf9e1b2ddxq6A4s5">Av. Libertador Gral. San Martin Este 289</a></h5>
-            <h5>Telefono: (264) 4276543</h5>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54427.32113558639!2d-68.61523532985485!3d-31.50472086201245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96816a825286f113%3A0x8e3592746da6f2df!2sAcceso%20Digital!5e0!3m2!1ses!2sar!4v1684114773695!5m2!1ses!2sar" 
-            width="600" 
-            height="450" 
-            style="border:0;" 
-            allowfullscreen="" 
-            loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="container-sucursales">
+          <ul class="slider">
+            <li id="slide1">
+              <h3>San Juan</h3>
+              <h5><a href="https://goo.gl/maps/ZKf9e1b2ddxq6A4s5" target="_blank">Av. Libertador Gral. San Martin Este 289</a></h5>
+              <h5>Telefono: (264) 4276543</h5>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54427.32113558639!2d-68.61523532985485!3d-31.50472086201245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96816a825286f113%3A0x8e3592746da6f2df!2sAcceso%20Digital!5e0!3m2!1ses!2sar!4v1684114773695!5m2!1ses!2sar" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </li>
+            <li id="slide2">
+              <h3>Santiago del Estero</h3>
+              <h5><a href="https://goo.gl/maps/FD5msa422kiTQbWy9" target="_blank">República de Líbano 657</a></h5>
+              <h5>Telefono: (3854) 434341</h5>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1750.9938293561565!2d-65.13609454220779!3d-28.630131976864337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1684452089440!5m2!1ses!2sar" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </li>
+            <li id="slide3">
+              <h3>Misiones</h3>
+              <h5><a href="https://goo.gl/maps/gVWFxGj8n1awBEBL9" target="_blank">Av. Almirante Brown 4.338</a></h5>
+              <h5>Telefono: (379) 4632153</h5>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3542.905659480425!2d-55.92101286808699!3d-27.378661560982177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1684453714207!5m2!1ses!2sar" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+            </li>
+          </ul>  
+
+          <ul class="menu">
+            <li>
+              <a href="#slide1"></a>
+            </li>
+            <li>
+              <a href="#slide2"></a>
+            </li>
+            <li>
+              <a href="#slide3"></a>
+            </li>
+          </ul>
         </div>
+        
     </main>
     <footer>
       <!-- place footer here -->
