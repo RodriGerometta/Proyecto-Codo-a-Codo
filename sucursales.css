@@ -122,7 +122,7 @@ ul.slider li iframe{
 }
 
 ul.slider li:second-child{
-    opacity: 0;
+    opacity: 1;
 }
 
 ul.slider li:target{
