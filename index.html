@@ -32,9 +32,8 @@
         <div v-for="product in products" :key="product.id" class="column">
           <div class="card">
             <img :src="product.image" alt="product image" style="width: 30%" />
-            <h1>{{product.title}}</h1>
-            <p class="price">Precio: ${{product.price}}</p>
-            
+            <h1 class="prod-titulo">{{product.title}}</h1>
+            <p class="prod-precio">Precio: ${{product.price}}</p>
             <p><button>Agregar al Carrito</button></p>
           </div>
           
