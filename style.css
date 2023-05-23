@@ -28,7 +28,7 @@ html {
 
 .aheader:hover {
   background-color: rgba(129, 44, 111, 255);
-  outline: 2px solid black;
+  outline: 2px solid white;
 }
 
 .aheader:visited {
@@ -37,7 +37,7 @@ html {
 
 .aheader:active {
   background-color: rgb(243, 240, 235);
-  color: rgb(8, 8, 8);
+  color: white;
 }
 
 h1 {
@@ -56,7 +56,12 @@ header {
 }
 
 .logo-header {
+  border-radius: 10px;
   width: 5vw;
+}
+
+.logo-header:hover {
+  outline: 2px solid white;
 }
 
 .footer {
