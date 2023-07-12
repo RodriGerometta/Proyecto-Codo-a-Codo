@@ -1,33 +1,30 @@
 // <!-- place navbar here -->
 
 navbar = `
-    <h1 style="border: 2px solid grey">Shopping Codo a Codo</h1>
-    <nav class="navbar navbar-expand-lg p-3 fw-medium fs-5">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#barra" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="barra">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-                    <li class="nav-item li-logo-header">
-                        <a href="index.html">
-                            <img width="65" class="logo-header" src="./Imagenes/logo.png" alt="Logo">
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="aheader nav-link text-black" href="nosotros.html">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="aheader nav-link text-black" href="sucursales.html">Sucursales</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="aheader nav-link active text-black" aria-current="page" href="contacto.html">Contacto</a>
-                    </li>
-                </ul>
-            </div>
+<h1 style="border: 2px solid grey">Shopping Codo a Codo</h1>
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <div class="container">
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html" aria-current="page"> <span class="visually-hidden">(current)</span>
+                         <img width="65" class="logo-header" src="./Imagenes/logo.png" alt="Logo">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="productos.html" aria-current="page">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Action 2</a>
+                </li>
+            </ul>
+            <form class="d-flex my-2 my-lg-0">
+                <input class="form-control me-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
         </div>
-    </nav>
+    </div>
+</nav>
 `;
 
 document.querySelector("header").innerHTML = navbar;

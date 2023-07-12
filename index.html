@@ -29,11 +29,11 @@
 
     <main>
       <div id="app" class="row">
-        <div v-for="product in products" :key="product.id" class="column">
+        <div v-for="producto in productos" :key="producto.id" class="column">
           <div class="card">
-            <img :src="product.image" alt="product image" style="width: 30%" />
-            <h1 class="prod-titulo">{{product.title}}</h1>
-            <p class="prod-precio">Precio: ${{product.price}}</p>
+            <img :src="producto.imagen" alt="producto image" style="width: 30%" />
+            <h1 class="prod-titulo">{{producto.nombre}}</h1>
+            <p class="prod-precio">Precio: ${{producto.precio}}</p>
             <p><button>Agregar al Carrito</button></p>
           </div>
         </div>
@@ -59,9 +59,8 @@
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
     <!-- scripts de js -->
-    <script src="./js/datos.js"></script>
+    <script src="./js/productos.js"></script>
     <script src="./js/footer.js"></script>
     <script src="./js/header.js"></script>
-    <script src="./js/main.js"></script>
   </body>
 </html>
