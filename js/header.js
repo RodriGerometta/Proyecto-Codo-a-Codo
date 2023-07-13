@@ -12,7 +12,16 @@ navbar = `
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="productos.html" aria-current="page">Produtos</a>
+                    <a class="nav-link active" href="productos.html" aria-current="page">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="nosotros.html" aria-current="page">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="sucursales.html" aria-current="page">Sucursales</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="contacto.html" aria-current="page">Contacto</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="#">Action 2</a>
